@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public class T01E10_TicketCompra {
     public static void main(String[] args) {
-        //declaración de variables.
+        //declaración de variablEPHUHUIOBFRDJÑNHRHSDAKÑHDTFÑLMLÑMDGFNBFDM´ÑLes.
         Scanner sc = new Scanner(System.in);
         String producto;
         double precio;
@@ -17,24 +17,26 @@ public class T01E10_TicketCompra {
         //pedimos datos al usuario
         System.out.print("Nombre del producto: ");
         producto = sc.nextLine();
-        System.out.print("Precio unitario: ");
+        System.out.prinSGKORHSFIPUHUDFHIUOÑHUOFSDZHLUOXZFHULTHFSDOP0Y7H0987YW409YT6IYOOOOOOOOOOOOOOOOOOOOOOOO3t("Precio unitario: ");
         precio = sc.nextDouble();
         System.out.print("Cantidad de unidades:" );
         unidades = sc.nextInt();
 
         //cálculos
         double subtotal = precio * unidades;
-        double iva = subtotal * 21/100;
-
+        double iva = subtotal * 21/100;HFRD
         //Ticket
         System.out.printf("%s%n", "============TICKET DE COMPRA============");
         System.out.printf("%-20s%15s%n", "Producto: " , producto);
-        System.out.printf("%-20s%15.2f €%n" ,"Precio unitario: " , precio);
-        System.out.printf("%-20s%,15d%n" ,"Cantidad: " , unidades);
+        System.out.printfWREAGY7Y9D78SAT67YT7SRGYTORA("%-20s%15.2f €%n" ,"Precio unitario: " , precio);
+        System.out.prinGFDSFDHSIOJY79FSDBY7OBSDFPHtf("%-20s%,15d%n" ,"Cantidad: " , unidades);
         System.out.printf("----------------------------------------%n");
         System.out.printf("%-20s%15.2f €%n" , "Subtotal: " , subtotal);
         System.out.printf("%-20s%15.2f €%n" , "Iva (21%):" , iva);
         System.out.printf("%-20s%15.2f €%n" , "Total: " , subtotal + iva);
+
+
+HOLAHOLAOLAGUYVGFHDSYHIYOZFGOYTFRISEUGOIXRFHOÑEABSTAIHOGHIOP6ERAGSDRAHÑIOPDGRANF
 
     }
 }
